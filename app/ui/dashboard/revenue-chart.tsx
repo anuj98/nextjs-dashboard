@@ -19,7 +19,7 @@ export default async function RevenueChart() {
   if (!revenue || revenue.length === 0) {
     return <p className="mt-4 text-gray-400">No data available.</p>;
   }
-  console.log(`Revenue component: ${revenue[0]}`)
+  
   return (
     <div className="w-full md:col-span-4">
       <h2 className={`mb-4 text-xl md:text-2xl`}>
